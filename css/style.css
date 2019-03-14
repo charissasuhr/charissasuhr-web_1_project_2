@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "Museo";
+  src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+
+body {
+  font-family: "Museo", sans-serif;
+  background: url("https://github.com/charissasuhr/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true");
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img [alt="nest"] {
+  align-self: flex-start;
+}
+.l {
+  text-decoration: none;
+  color: grey;
+  font-family: "Nunito", sans-serif;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+
+#left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+#right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social {
+  width: 40px;
+}
+/*Section 1**********grid************/
+#student-feature {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  height: 100vh;
+  padding:2%;
+}
+.arrows {
+  width: 50px;
+  height: 50px;
+}
+
+#leftarrow {
+  position: absolute;
+  top: 250px;
+  left: -15px;
+}
+#rightarrow {
+  position: absolute;
+  top: 250px;
+  right: 410px;
+}
+.designer {
+  display: flex;
+  align-items: flex-end;
+}
+#designer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #696969;
+  color: white;
+  width: 100%;
+  height: 5vh;
+  font-family: "Nunito", sans-serif;
+  padding:1%;
+}
+
+#focus {
+  background: url("https://cdn.shopify.com/s/files/1/0013/8998/5890/products/Promise_MixedonCanvas_40x40_MAIN_700x700.jpg?v=1548869735");
+  background-size: cover;
+  background-position: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 5px solid white;
+  display: flex;
+}
+
+#position-one {
+  background: url("http://cdn.shopify.com/s/files/1/1862/5545/products/Flirting_No1_sm_1024x1024.jpg?v=1490033386");
+  background-position: center;
+  background-size: cover;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border: 5px solid white;
+}
+
+#position-two {
+  background: url("https://imgc.allpostersimages.com/img/posters/julia-contacessi-escaping-light-i_u-L-Q1BJYGY0.jpg?src=gp&w=275&h=250");
+  background-position: center;
+  background-size: cover;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border: 5px solid white;
+}
+
+#position-three {
+  background: url("https://s-media-cache-ak0.pinimg.com/originals/bb/07/d0/bb07d0eae6ef29329d7871df37f32eab.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border: 5px solid white;
+}
+
+#bio {
+  background: white;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.bio {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  text-align: right;
+  padding: 2%;
+  position:relative;
+}
+
+img[alt="profpic"] {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 200px;
+  height: 200px;
+  padding: 2%;
+}
+#contact {
+  color: grey;
+}
+
+
+#project-detail {
+  background: white;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#pdetail {
+  color: grey;
+  padding: 3%;
+  text-align: justified;
+}
+
+.card {
+  background:url("https://static1.squarespace.com/static/5a0b043729f187e10887ab3b/5a9e7b9e8165f5c069e7319f/5a9e6408e22c88ba79bfacb8/1520421372061/?format=750w");
+  width: 200px;
+  height: 30vh;
+  margin: 10px;
+}
+
+h4 {
+  color: grey;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+#ban {
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.bird {
+  width: 30px;
+  height: 30px;
+}
+
+.twitbanner {
+  background-color: grey;
+  width: cover;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitbanner div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  font-size: 8pt;
+}
+/*Section 4-footer**********/
+#bottom {
+  display: flex;
+  align-items: center;
+}
+
+footer{
+   background:url("https://github.com/charissasuhr/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+  background-color: #CCBFB2;
+	background-blend-mode: multiply;
+  padding:2%;
+  
+
+}
+#footercolumns{
+  display:flex;
+}
+
+.footercolumn{
+  width:33%;
+  padding:5px;
+  margin:0 auto;
+}
+.search{
+  width:30px;
+  height:30px;
+}
+.searchbar{
+  background:white;
+  width:250px;
+  color:#696969
+}
+h3{
+  font-family: 'Nunito', sans-serif;
+  color:#696969;
+}
+.art{
+  width: 70px;
+  height: 50px;
+  padding: 2%;
+  margin: 1px;
+}
+  
+.gallery{
+  display: flex;
+  justify-content:space-between;  
+}
